@@ -28,7 +28,7 @@ for (apariciones.length = 0; apariciones.length < 50; apariciones.length+1) {
 
   const counts = {};
     for (const num of apariciones) {
-    counts[num] = counts[num] ? counts[num] + 1 : 1;
+        counts[num] = (counts[num] || 0) + 1;
   }
 document.write("El número 2 aparece: "+counts[2] +" veces. El número aparece el " +Math.round(counts[2]/apariciones.length *100)+"% del total de resultados <br>")
 document.write("El número 3 aparece: "+counts[3] +" veces. El número aparece el " +Math.round(counts[3]/apariciones.length *100)+"% del total de resultados <br>") 
