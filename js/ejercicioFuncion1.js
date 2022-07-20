@@ -4,7 +4,7 @@ entero y devuelve como resultado una cadena de texto que indica si el número es
 par o impar. Mostrar por pantalla el resultado devuelto por la función.
 
 */
-;  
+  
 function indicador(cifra){
 if (cifra %2 == 0 && isNaN(cifra)===false){
         document.write("El número ingresado "+cifra+" es par.")
