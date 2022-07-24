@@ -13,5 +13,10 @@ for(let multiplo=1; multiplo<11; multiplo++){
     alert("Lo ingresado no es válido")
 }
 }
-tablaMultiplicar(numero=parseInt(prompt("Ingrese un numero")));
+tablaMultiplicar(numero=parseFloat(prompt("Ingrese un numero")));
        
+/*
+Usé la función parseFloat para que pueda considerar cifras con decimales.
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+
+*/

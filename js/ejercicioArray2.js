@@ -38,7 +38,7 @@ document.write("<h5>La ciudad en la tercera posición es: </h5>" + ciudades[2]+"
 document.write("<h5>La ciudad en la ultima posición es: </h5>" + ciudades[ciudades.length-1]+"<br>")
 
 //Agregamos la ciudad de París. 
-document.write("<h5>Se añade en última posición la ciudad de París </h5> <br>")
+document.write("<h5>Se añade en última posición la ciudad de 'París' </h5> <br>")
 ciudades.push("París");
 document.write(`<ul>`);
 for(let indice=0; indice < ciudades.length; indice++){
@@ -47,10 +47,10 @@ document.write(`<ul><li>${ciudades[indice]}</li></ul>`);
 document.write(`</ul>`);
 
 //Escribimos  el elemento que ocupa la segunda posición.
-document.write("<h5>Ahora, la ciudad en la segunda posición es: </h5>" + ciudades[1]+"<br>")
+document.write("<h5>La ciudad en la segunda posición es: </h5>" + ciudades[1]+"<br>")
 
 //Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'.
-document.write("<h5>Se sustituye el elemento que ocupa la segunda posición por la ciudad 'Barcelona' </h5> <br>")
+document.write("<h5>Se sustituye '" +ciudades[1] +"', que ocupaba la segunda posición, por la ciudad 'Barcelona' </h5> <br>")
 ciudades[1]="Barcelona"
 document.write(`<ul>`);
 for(let indice=0; indice < ciudades.length; indice++){
