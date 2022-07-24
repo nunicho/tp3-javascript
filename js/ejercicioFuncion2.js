@@ -8,12 +8,12 @@ por una mezcla de ambas.
 function indicadorDeLetras(texto){
     let resultado;
     if (texto === texto.toUpperCase()){
-            resultado = ("Esta cadena de texto está formada sólo por MAYÚSCULAS.")
+            resultado = ("Esta cadena de texto está formada sólo por: MAYÚSCULAS.")
         }else if ((texto === texto.toLowerCase())){
-            resultado = ("ESTA CADENA DE TEXTO ESTÁ FORMADA SÓLO POR minúsculas.")
+            resultado = ("Esta cadena de texto está formada sólo por: minúsculas.")
         }
         else{
-            resultado = ("EsTa CaDeNa De TeXtO mEzClA minúsculas y MAYÚSCULAS.")
+            resultado = ("Esta cadena de texto mecla MAYÚSCULAS y minúsculas.")
         }
         alert (resultado)
     }

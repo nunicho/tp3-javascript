@@ -57,20 +57,3 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/for...
 
 */
 
-/*
-const conteo = {};
-    for (const num of apariciones) {
-        conteo [num] = (conteo[num] || 0) + 1;
-  }
-document.write("El número 2 aparece: "+conteo[2] +" veces, y representa el " +Math.round(conteo[2]/apariciones.length *100)+"% del total de resultados obtenidos. <br>")
-document.write("El número 3 aparece: "+conteo[3] +" veces, y representa el " +Math.round(conteo[3]/apariciones.length *100)+"% del total de resultados obtenidos. <br>") 
-document.write("El número 4 aparece: "+conteo[4] +" veces, y representa el " +Math.round(conteo[4]/apariciones.length *100)+"% del total de resultados obtenidos. <br>") 
-document.write("El número 5 aparece: "+conteo[5] +" veces, y representa el " +Math.round(conteo[5]/apariciones.length *100)+"% del total de resultados obtenidos. <br>") 
-document.write("El número 6 aparece: "+conteo[6] +" veces, y representa el " +Math.round(conteo[6]/apariciones.length *100)+"% del total de resultados obtenidos. <br>")   
-document.write("El número 7 aparece: "+conteo[7] +" veces, y representa el " +Math.round(conteo[7]/apariciones.length *100)+"% del total de resultados obtenidos. <br>") 
-document.write("El número 8 aparece: "+conteo[8] +" veces, y representa el " +Math.round(conteo[8]/apariciones.length *100)+"% del total de resultados obtenidos. <br>") 
-document.write("El número 9 aparece: "+conteo[9] +" veces, y representa el " +Math.round(conteo[9]/apariciones.length *100)+"% del total de resultados obtenidos. <br>") 
-document.write("El número 10 aparece: "+conteo[10] +" veces, y representa el " +Math.round(conteo[10]/apariciones.length *100)+"% del total de resultados obtenidos. <br>")
-document.write("El número 11 aparece: "+conteo[11] +" veces, y representa el " +Math.round(conteo[11]/apariciones.length *100)+"% del total de resultados obtenidos. <br>")
-document.write("El número 12 aparece: "+conteo[12] +" veces, y representa el " +Math.round(conteo[12]/apariciones.length *100)+"% del total de resultados obtenidos. <br>")
-*/

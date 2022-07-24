@@ -12,14 +12,23 @@ function perimetroRectangulo(base, altura){
         perimetro = 2*(base + altura)
         alert("El perímetro del rectángulo es igual a "+ perimetro+" .")
     }
-    else if( isNaN(base)===false && base<=0 && isNaN(altura) ===false && altura<=0){
+    else if( isNaN(base)===false && base<0 || isNaN(altura) ===false && altura<0){
         perimetro = 2*(base + altura)
-        alert("El perímetro del rectángulo es igual a "+ perimetro+" .")
+        alert(" Los valores de BASE y ALTURA tienen que ser mayores o iguales a 0.")
     }
-        else {
+    else {
         alert("Lo ingresado no es correcto.");
     }
 }
 
-perimetroRectangulo(base=parseInt(prompt("Ingrese un valor para la BASE del rectángulo.")),
-altura=parseInt(prompt("Ingrese un valor para la ALTURA del rectángulo.")))
+perimetroRectangulo(base=parseFloat(prompt("Ingrese un valor para la BASE del rectángulo.")),
+altura=parseFloat(prompt("Ingrese un valor para la ALTURA del rectángulo.")))
+
+
+/*
+Consideré que la función Perímetro no puede trabajar con valores negativos.
+
+Usé la función parseFloat para que pueda considerar cifras con decimales.
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+
+*/
